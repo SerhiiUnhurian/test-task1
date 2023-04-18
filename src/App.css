@@ -1,38 +1,47 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hero {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #56e2d5;
+  height: 86vh;
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  background-color: rgba(248,249,250);
+  height: auto;
+  width: 100vw;
+  margin-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background-image {
+  background-image: url("https://img.freepik.com/premium-vector/cute-panda-laptop_677433-144.jpg?w=1380");
+  background-size: 35%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.button {
+  display: flex;
+  width: 200px;
+  margin-bottom: 25px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  background-color: #56e2d5;
+  height: 86vh;
+  padding: 0 70px;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
 }
